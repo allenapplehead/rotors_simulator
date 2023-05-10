@@ -586,7 +586,7 @@
       horizontal_fov="1.3962634"
       image_width="752"
       image_height="480"
-      image_format="L8"
+      image_format="R8G8B8"
       min_distance="0.02"
       max_distance="30"
       noise_mean="0.0"
@@ -608,7 +608,7 @@
       horizontal_fov="1.3962634"
       image_width="752"
       image_height="480"
-      image_format="L8"
+      image_format="R8G8B8"
       min_distance="0.02"
       max_distance="${max_range}"
       noise_mean="0.0"
@@ -710,7 +710,7 @@
       </visual>
 
       <inertial>
-        <mass value="0.13" />
+        <mass value="0.0" />
         <origin xyz="0 0 0" rpy="0 0 0" />
         <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
       </inertial>
